@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <style>
+            p {
+                font-size: 15px;
+                margin: 0;
+                font-family: Arial;
+                margin-bottom: 3px;
+            }
+
+            .container {
+                display: flex;
+                flex-direction: column;
+                
+            }
+
+            .profile {
+                display: flex;
+                flex-direction: row;
+                align-items: center;
+                margin-top: 10px;
+            }
+
+            .prof-img {
+                height: 50px;
+                width: 50px;
+                object-fit: cover;
+                border-radius: 50px;
+                margin-right: 20px;
+            }
+
+            .info {
+                display: flex;
+                flex-direction: column;
+                width: 200px;
+            }
+
+            .p1 {
+                font-weight: bold;
+            }
+
+            .p3, .p2 {
+                color: grey;
+            }
+
+            .button {
+                background-color: rgb(29, 155, 240);
+                color: white;
+                border: none;
+                border-radius: 3px;
+                font-size: 16px;
+                font-weight: bold;
+                padding: 8px 13px;
+            }
+
+        </style>
+    </head>
+    <body>
+        <div class="container">
+            <div class="profile">
+                <img class="prof-img" src="exe-images/cat1.jpg">
+                <div class="info">
+                    <p class="p1">oliver</p>
+                    <p class="p2">the cat</p>
+                    <p class="p3">Popular</p>
+                </div>
+                <button class="button">Follow</button>
+            </div>
+
+            <div class="profile">
+                <img class="prof-img" src="exe-images/cat2.webp">
+                <div class="info">
+                    <p class="p1">Mimi</p>
+                    <p class="p2">Sleepy Cat</p>
+                    <p class="p3">Popular</p>
+                </div>
+                <button class="button">Follow</button>
+            </div>
+
+            <div class="profile">
+                <img class="prof-img" src="exe-images/cat3.jpg">
+                <div class="info">
+                    <p class="p1">Rex</p>
+                    <p class="p2">Happy Bullcat</p>
+                    <p class="p3">Not Popular</p>
+                </div>
+                <button class="button">Follow</button>
+            </div>
+
+        </div>
+    </body>
+</html>

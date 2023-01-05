@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <style>
+            p {
+                margin: 0;
+            }
+
+            .container {
+                border-width: 1px;
+                border-style: solid;
+                border-color: rgb(200, 200, 200);
+                border-radius: 6px;
+                width: 400px;
+            }
+
+            .flexbox {
+                display: flex;
+                flex-direction: row;
+                justify-content: space-between;
+                padding: 6px 12px;
+                align-items: center;
+            }
+
+            .p1 {
+                font-size: 16px;
+            }
+
+            .p2 {
+                background-color:rgb(49, 109, 245);
+                color: white;
+                font-weight: bold;
+                border-radius: 20px;
+                padding: 3px 10px;
+                font-size: 14px;
+            }
+
+        </style>
+    </head>
+    <body>
+        <div class="container">
+            <div class="flexbox">
+                <p class="p1">Home</p>
+                <p class="p2">14</p>
+            </div>
+            <div class="flexbox">
+                <p class="p1">Notifications</p>
+                <p class="p2">3</p>
+            </div>
+            <div class="flexbox">
+                <p class="p1">Messages</p>
+                <p class="p2">5</p>
+            </div>
+        </div>
+    </body>
+</html>

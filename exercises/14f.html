@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <style>
+            body {
+                padding-left: 92px;
+            }
+
+            p {
+                margin: 0;
+            }
+
+            .sidebar-1 {
+                display: flex;
+                flex-direction: column;
+                position: fixed;
+                background-color: rgb(50, 50, 50);
+                top: 0;
+                left: 0;
+                bottom: 0;
+                width: 70px;
+                padding-left: 15px;
+                padding-right: 15px;
+                padding-top: 15px;
+            }
+
+            .server-pic {
+                height: 70px;
+                width: 70px;
+                object-fit: cover;
+                border-radius: 35px;
+                margin-bottom: 15px;
+            }
+
+            .sidebar-2 {
+                display: flex;
+                flex-direction: column;
+                position: fixed;
+                background-color: rgb(75, 75, 75);
+                top: 0;
+                bottom: 0;
+                width: 200px;
+                padding-left: 15px;
+                padding-top: 15px;
+            }
+
+            .header {
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+                padding-right: 15px;
+                padding-bottom: 8px;
+            }
+
+            .info {
+                font-family: Arial;
+                color: white;
+                font-weight: bold;
+                font-size: 15px;
+            }
+
+            .plus {
+                font-family: Arial;
+                font-weight: bold;
+                color: white;
+                font-size: 20px;
+            }
+
+            .channel {
+                color: rgb(184, 184, 184);
+                font-family: Arial;
+                margin-bottom: 8px;
+            }
+
+        </style>
+    </head>
+    <body>
+        <div class="sidebar-1">
+            <img class="server-pic" src="exe-images/cat1.jpg">
+            <img class="server-pic" src="exe-images/cat2.webp">
+            <img class="server-pic" src="exe-images/cat3.jpg">
+        </div>
+
+        <div class="sidebar-2">
+            <div class="header">
+                <p class="info">INFO</p>
+                <p class="plus">&plus;</p>
+            </div>
+            <p class="channel"># new-videos</p>
+            <p class="channel"># updates</p>
+            <p class="channel"># faq</p>
+        </div>
+    </body>
+</html>
